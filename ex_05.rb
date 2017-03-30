@@ -1,11 +1,8 @@
 
 
-def greet_backwards(name)
+def greet_backwards
   names = ["Amanda", "Bob", "Shirly", "Sue", "Andy"]
-  return  "Hello, #{name.reverse}"
   names.each do |name|
+  puts  "Hello, #{name.reverse} #{name.reverse}! Welcome home."
 end
-
-puts greet_backwards (name)
-
 end

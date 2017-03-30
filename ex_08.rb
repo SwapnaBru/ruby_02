@@ -1,7 +1,7 @@
 
 
 
-def annual_exp (total)
+def annual_exp(total)
 
   total = [ 1400, 1300, 1200, 1400, 1200, 1800, 1600]
   sum = 0
@@ -12,4 +12,4 @@ def annual_exp (total)
   return sum
 end
 
-puts " your totdal expenses are #{annual_exp}"
+puts " your totdal expenses are #{annual_exp(total)}"
